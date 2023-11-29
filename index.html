@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+   <div class="calc">
+        <div>
+            <input  class="top" type="text" id="screen" placeholder="0" disabled>
+        </div>
+        <link rel="stylesheet" href="style.css">
+   
+   
+        <div class="bottom">
+            <button onclick="allClear()" class="spec">AC</button>
+            <button onclick="del()" class="spec">DEL</button>
+            <BUtton onclick="input('.')" class="spec">.</BUtton>
+            <BUtton onclick="input('+')" class="spec">+</BUtton>
+            <button  onclick="input('9')">9</button>
+            <BUtton onclick="input('8')">8</BUtton>
+            <BUtton onclick="input('7')">7</BUtton>
+            <button onclick="input('-')" class="spec">-</button> 
+            <BUtton onclick="input('6')">6</BUtton>
+            <BUtton onclick="input('5')">5</BUtton>
+            <BUtton onclick="input('4')">4</BUtton>
+            <BUtton onclick="input('*')" class="spec">*</BUtton>
+            <button onclick="input('3')">3</button>
+            <BUtton onclick="input('2')">2</BUtton>
+            <BUtton onclick="input('1')">1</BUtton>
+            <button onclick="input('/')" class="spec">/</button>
+            <BUtton onclick="input('(')">(</BUtton>
+            <BUtton onclick="input('0')">0</BUtton>
+            <button onclick="input(')')">)</button>
+            <BUtton onclick="calc()" class="spec">=</BUtton>
+        </div>
+    </div>
+
+
+
+
+<script src="tk.js"></script>
+</body>
+</html>
